@@ -1,5 +1,24 @@
 body {
   margin: 0;
+  font-family: 'Cardo', serif;
+}
+
+a.button {
+  font-size: .7em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a.button:hover {
+  color: #ff6f62;
+  border-color: #ff6f62;
+}
+
+.facebook {
+  fill: #fff;
 }
 
 .content {
@@ -7,7 +26,6 @@ body {
 }
 
 #cover {
-  display: table;
   height: 100vh;
   background-image: url(me.jpg);
   background-size: cover;
@@ -15,13 +33,57 @@ body {
 }
 
 .content .container {
-  display: table-cell;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100vh;
+  padding: 10%;
 }
 
 #cover #left {
-  background-color: rgba(255,255,255,.7);
+  display: table;
+  float: left;
+  background-color: rgba(255,255,255,.8);
+  text-align: center;
 }
 
 #cover #right {
-  background-color: rgba(0,0,0,.6);
+  float: right;
+  background-color: rgba(0,0,0,.7);
+}
+
+#about-me {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about-me .greeting {
+  margin: 0;
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#about-me .name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #ff4c3b;
+}
+
+#about-me .blurb {
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+}
+
+#about-me .button {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+a {
+  cursor: pointer;
 }
