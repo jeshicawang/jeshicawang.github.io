@@ -4,6 +4,7 @@ body {
 }
 
 a.button {
+  padding: 5px;
   font-size: .7em;
   text-transform: uppercase;
   text-decoration: none;
@@ -17,8 +18,39 @@ a.button:hover {
   border-color: #ff6f62;
 }
 
-.facebook {
-  fill: #fff;
+a.icon {
+  display: inline-table;
+  vertical-align: middle;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+#facebook.icon:hover {
+  border-color: #4460a0;
+}
+
+#instagram.icon:hover {
+  border-color: #feb0e0;
+}
+
+#linkedin.icon:hover {
+  border-color: #007ebb;
+}
+
+#github.icon:hover {
+  border-color: #8fd871;
+}
+
+a.icon div {
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events: none;
+}
+
+a.icon div object {
+  pointer-events: none;
 }
 
 .content {
@@ -33,27 +65,28 @@ a.button:hover {
 }
 
 .content .container {
+  display: table;
   box-sizing: border-box;
   width: 50%;
   height: 100vh;
-  padding: 10%;
-}
-
-#cover #left {
-  display: table;
-  float: left;
-  background-color: rgba(255,255,255,.8);
   text-align: center;
 }
 
-#cover #right {
+#cover #left.container {
+  float: left;
+  background-color: rgba(255,255,255,.8);
+}
+
+#cover #right.container {
   float: right;
   background-color: rgba(0,0,0,.7);
+  font-size: 0;
 }
 
 #about-me {
   display: table-cell;
   vertical-align: middle;
+  padding: 15%;
 }
 
 #about-me .greeting {
@@ -80,10 +113,14 @@ a.button:hover {
 
 #about-me .button {
   display: inline-block;
-  padding: 5px;
   margin-top: 30px;
 }
 
-a {
-  cursor: pointer;
+#right.container .navigation {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#right.container .navigation .icon {
+  margin: 20px;
 }
