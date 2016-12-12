@@ -27,21 +27,13 @@ a.icon {
   border: 1px solid #fff;
 }
 
-#facebook.icon:hover {
-  border-color: #4460a0;
-}
+#facebook.icon:hover { border-color: #4460a0; }
 
-#instagram.icon:hover {
-  border-color: #feb0e0;
-}
+#instagram.icon:hover { border-color: #feb0e0; }
 
-#linkedin.icon:hover {
-  border-color: #007ebb;
-}
+#linkedin.icon:hover { border-color: #007ebb; }
 
-#github.icon:hover {
-  border-color: #8fd871;
-}
+#github.icon:hover { border-color: #8fd871; }
 
 a.icon div {
   display: table-cell;
@@ -49,13 +41,9 @@ a.icon div {
   pointer-events: none;
 }
 
-a.icon div object {
-  pointer-events: none;
-}
+a.icon div object { pointer-events: none; }
 
-.content {
-  width: 100%;
-}
+.content { width: 100%; }
 
 #cover {
   height: 100vh;
@@ -121,6 +109,4 @@ a.icon div object {
   vertical-align: middle;
 }
 
-#right.container .navigation .icon {
-  margin: 20px;
-}
+#right.container .navigation .icon { margin: 20px; }
