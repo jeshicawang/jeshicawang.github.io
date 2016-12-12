@@ -1,16 +1,18 @@
 body {
   margin: 0;
-  font-family: 'Cardo', serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 a.button {
-  padding: 5px;
+  padding: 7px;
+  padding-top: 9px;
   font-size: .7em;
+  letter-spacing: .05em;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
-  font-family: 'Montserrat', sans-serif;
 }
 
 a.button:hover {
@@ -62,12 +64,12 @@ a.icon div object { pointer-events: none; }
 
 #cover #left.container {
   float: left;
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.9);
 }
 
 #cover #right.container {
   float: right;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.8);
   font-size: 0;
 }
 
@@ -77,26 +79,21 @@ a.icon div object { pointer-events: none; }
   padding: 15%;
 }
 
-#about-me .greeting {
-  margin: 0;
-  text-align: left;
-  font-family: 'Source Code Pro', monospace;
-}
-
 #about-me .name {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  color: #ff4c3b;
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
+  /* color: #ff4c3b; */
 }
 
 #about-me .blurb {
   margin: 0;
   text-align: left;
-  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
 }
 
 #about-me .button {
